@@ -1,6 +1,8 @@
-﻿#include <iostream>
 #include "Header.h"
-string::string() {
+#include <iostream>
+
+string::string() 
+{
 	s = 1;
 	ptr = new char[s];
 	ptr[s-1] = '\0';
